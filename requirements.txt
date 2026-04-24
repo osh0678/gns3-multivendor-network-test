@@ -1,0 +1,13 @@
+# GNS3 Multivendor Network Test - Dependencies
+# ==============================================
+# 기본 의존성 (Python 표준 라이브러리만 사용)
+# telnetlib, json, urllib 등은 별도 설치 불필요
+
+# 테스트
+pytest>=7.0.0
+
+# (선택) Netmiko - SSH 기반 장비 접속 시
+# netmiko>=4.0.0
+
+# (선택) gns3fy - GNS3 Python SDK
+# gns3fy>=1.0.0
